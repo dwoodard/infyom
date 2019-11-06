@@ -173,6 +173,9 @@ return [
         Yajra\DataTables\HtmlServiceProvider::class,
         Yajra\DataTables\ButtonsServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
+        \InfyOm\GeneratorBuilder\GeneratorBuilderServiceProvider::class,
+        
         /*
          * Application Service Providers...
          */
